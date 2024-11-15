@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Select Without Trailing Spaces",
+  "version": "1.0",
+  "description": "Refines text selection by removing trailing spaces after a double-click.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
